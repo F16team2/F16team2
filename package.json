@@ -1,15 +1,15 @@
 {
-  "name": "apptest3",
+  "name": "bolt-js-getting-started-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Getting Started ⚡️ Bolt for JavaScript",
+  "main": "app.js",
   "scripts": {
+    "ngrok": "ngrok http 3000",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@cto.ai/sdk": "^2.4.1"
+    "@slack/bolt": "^2.3.0"
   }
 }

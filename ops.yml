@@ -1,0 +1,13 @@
+version: "1"
+services:
+  - name: bolt-js:0.1.0
+    description: A bolt-js example.
+    run: npm start
+    port: [ '8080:8080' ]
+    domain: ""
+    env:
+      static:
+        - PORT=8080
+      secrets:
+        - SLACK_SIGNING_SECRET
+        - SLACK_BOT_TOKEN
